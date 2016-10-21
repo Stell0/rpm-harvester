@@ -1,0 +1,37 @@
+# This is the standard Sangoma Yum Repository
+
+[sng-base]
+name=Sangoma-$releasever - Base
+mirrorlist=http://mirrorlist.pbx.ws/?release=$releasever&arch=$basearch&repo=os&dist=$dist
+#baseurl=http:/package1.sangoma.net/sng7/$releasever/os/$basearch/
+gpgcheck=0
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-Sangoma-7
+
+[sng-updates]
+name=Sangoma-$releasever - Updates
+mirrorlist=http://mirrorlist.pbx.ws/?release=$releasever&arch=$basearch&repo=updates&dist=$dist
+#baseurl=http://package1.sangoma.net/sng7/$releasever/updates/$basearch/
+gpgcheck=0
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-Sangoma-7
+
+[sng-extras]
+name=Sangoma-$releasever - Extras
+mirrorlist=http://mirrorlist.pbx.ws/?release=$releasever&arch=$basearch&repo=extras&dist=$dist
+#baseurl=http://package1.sangoma.net/sng7/$releasever/extras/$basearch/
+gpgcheck=0
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-Sangoma-7
+
+[sng-pkgs]
+name=Sangoma-$releasever - Sangoma Open Source Packages
+mirrorlist=http://mirrorlist.pbx.ws/?release=$releasever&arch=$basearch&repo=sng7&dist=$dist
+#baseurl=http://package1.sangoma.net/sng7/$releasever/sng7/$basearch/
+gpgcheck=0
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-Sangoma-7
+
+[sng-epel]
+name=Sangoma-$releasever - Sangoma Epel mirror
+mirrorlist=http://mirrorlist.pbx.ws/?release=$releasever&arch=$basearch&repo=epel&dist=$dist
+#baseurl=http://package1.sangoma.net/sng7/$releasever/epel/$basearch/
+gpgcheck=0
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-EPEL-7
+

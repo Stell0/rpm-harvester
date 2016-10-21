@@ -1,0 +1,8 @@
+
+[sng7-testing]
+name=Sangomga-$releasever - Staging
+baseurl=file:///var/www/testrepo/
+        http://package1.sangoma.net/sng7/testing/
+gpgcheck=0
+enabled=0
+

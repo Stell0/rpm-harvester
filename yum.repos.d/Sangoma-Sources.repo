@@ -1,0 +1,65 @@
+# Source RPM Repositories
+
+[sng-src]
+name=SRPMs for Sanoma specific packages
+baseurl=http://package1.sangoma.net/sangoma/src
+gpgcheck=0
+enabled=0
+
+[sng-src-os]
+name=SRPMs for Sanoma OS
+baseurl=http://package1.sangoma.net/sng7/src/os
+gpgcheck=0
+enabled=0
+
+[sng-src-updates]
+name=SRPMs for Sanoma Updates
+baseurl=http://package1.sangoma.net/sng7/src/updates
+gpgcheck=0
+enabled=0
+
+[sng-src-atomic]
+name=SRPMs for Sanoma Atomic
+baseurl=http://package1.sangoma.net/sng7/src/atomic
+enabled=0
+
+[sng-src-centosplus]
+name=Mirror of CentOS Plus SRPMs
+baseurl=http://package1.sangoma.net/sng7/src/centosplus
+enabled=0
+
+[sng-src-cloud]
+name=Mirror of CentOS Cloud SRPMs
+baseurl=http://package1.sangoma.net/sng7/src/cloud
+enabled=0
+
+[sng-src-cr]
+name=Mirror of CentOS CR SRPMs
+baseurl=http://package1.sangoma.net/sng7/src/cr
+enabled=0
+
+[sng-src-extras]
+name=Mirror of CentOS Extras SRPMs
+baseurl=http://package1.sangoma.net/sng7/src/extras
+enabled=0
+
+[sng-src-fasttrack]
+name=Mirror of CentOS FastTrack SRPMs
+baseurl=http://package1.sangoma.net/sng7/src/fasttrack
+enabled=0
+
+[sng-src-sclo]
+name=Mirror of CentOS SCLO SRPMs
+baseurl=http://package1.sangoma.net/sng7/src/sclo
+enabled=0
+
+[sng-src-storage]
+name=Mirror of CentOS Storage SRPMs
+baseurl=http://package1.sangoma.net/sng7/src/storage
+enabled=0
+
+[sng-src-virt]
+name=Mirror of CentOS Virt SRPMs
+baseurl=http://package1.sangoma.net/sng7/src/storage
+enabled=0
+
